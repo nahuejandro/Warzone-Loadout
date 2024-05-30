@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+/* Mobile */
+@media only screen and (max-width: 480px){
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 980px){
+  body {
+    background-color: #026498;
+  }
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 981px){
+  body{
+    background-color: #0076b4;
+  }
+}
+
+/*css todo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fuentes */
+  --fuente-secundaria: "oswald", sans-serif;
+  --tamaño-fuente: ;
+  /* Colores */
+  /* Estructura */
+  /* Imagenes*/
+}
+
+body,
+html {
+  background: linear-gradient(to bottom, #0077b6, #000000);
+  font-family: "oswald", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+
+/*html INDEX*/
+
+/* Nav Bar */
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(to top, #0077b6, #000000);
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container.navigation {
+  padding: 6px 8px 0;
+}
+
+.nav-container .second-nav {
+  border-bottom: 1px solid #0077b6;
+}
+
+.nav-container .second-nav .nav-items .nav-item-label {
+  text-transform: uppercase;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.nav-item-label a {
+  margin: 0 10px 0 10px;
+}
+
+.nav-container .navigation .second-nav .nav-items .nav-item-label {
+  min-width: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 4px 0 6px;
+  text-align: center;
+  color: #ffffffd9;
+  border-bottom: 2px solid #949494;
+  transition: border 0.15s ease-out;
+  text-shadow: 1px 1px 2px black;
+}
+
+.titulo {
+  padding-top: 30px;
+  font-family: "oswald", sans-serif;
+  letter-spacing: 0;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* index */
+
+.bienvenida,
+h3 {
+  margin: 10px 20% 10px 20%;
+  text-shadow: 1px 1px 2px black;
+}
+
+.bienvenida .descripcion-bienvenida {
+  font-size: 15px;
+  margin: auto;
+}
+
+h3 .titulo-texto {
+  display: flex;
+  justify-content: center;
+}
+
+.fines-container .fines-informativos p {
+  font-size: 12px;
+  margin: 50px 20% 0 20%;
+}
+
+.video iframe {
+  margin: 0;
+  width: 800px;
+  height: 450px;
+}
+
+.descripcion-bienvenida p {
+  padding: 50px 0 50px 0;
+  margin: auto;
+  }
+
+.rick {
+  width: 800px;
+  height: 400px;
+  margin: 0 20 0 20%;
+}
+
+.img-streamer {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 200px;
+  border: none;
+  border-radius: 100px;
+}
+
+.img-streamer img {
+  border-radius: 100px;
+}
+
+/*html armamento*/
+/*MODO JUEGO*/
+
+.titulo-armamento {
+  padding-top: 60px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.menu-map-container {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 0 auto 12px;
+}
+
+.menu-map-container .battle-royale .resurgimiento {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 22px;
+  opacity: 0.64;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 6px 44px rgba(0, 0, 0, 0.54);
+  transition: all 0.15s ease-out;
+}
+
+.battle-royale {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 22px;
+  opacity: 0.64;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 6px 44px rgba(0, 0, 0, 0.54);
+  transition: all 0.15s ease-out;
+  position: relative;
+  top: 50px;
+}
+
+.resurgimiento {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 22px;
+  opacity: 0.64;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 6px 44px rgba(0, 0, 0, 0.54);
+  transition: all 0.15s ease-out;
+  position: relative;
+  left: 6px;
+  top: 49px;
+}
+
+.titulo-modos {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 22px;
+  opacity: 0.64;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 6px 44px rgba(0, 0, 0, 0.54);
+  transition: all 0.15s ease-out;
+}
+
+#container-modo {
+  display: flex;
+  justify-content: center;
+}
+
+.urzikistan img {
+  width: 150px;
+  height: 45px;
+  border: 1px solid #35b7ff;
+  border-radius: 6px;
+}
+
+.vondel img {
+  width: 150px;
+  height: 45px;
+  border: 1px solid #35b7ff;
+  opacity: 1;
+  border-radius: 6px;
+}
+
+/* MENU DE TIPOS DE ARMAS */
+.container-armas {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+}
+
+#section-armas p {
+  border-radius: 30px;
+  border: 1px solid #2e374471;
+  width: 200px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  background-color: #023d8a55;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* CAJA DE ARMAS */
+.grid-armas {
+  display: flex;
+  justify-content: center;
+  margin: 10px 500px 0;
+  border: 1px solid #90e0ef;
+  background: rgba(44, 43, 41, 0.81);
+}
+
+.grid-armas .loadout-content-name-type .loadout-content-name {
+  margin: 15px 0 0 50px;
+  font-family: "oswald", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #caf0f8;
+  text-transform: uppercase;
+}
+.weapon-image-rank-container img {
+  width: 160px;
+  height: 54px;
+  justify-content: center;
+}
+.grid-attatchment ul li {
+  padding: 8px 10px 10px;
+  text-align: left;
+  border-top: 1px solid #90e0ef;
+  border-bottom: 1px solid #90e0ef;
+  border-left: 1px solid #90e0ef;
+  border-right: 1px solid #90e0ef;
+  border-radius: 2px;
+  background: rgba(44, 43, 41, 0.81);
+  margin: 0 37%;
+  font-family: "oswald", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 17px;
+  color: #caf0f8;
+  text-transform: uppercase;
+}
+
+.attatchment-name {
+  text-shadow: 1px 1px 2px black;
+}
+
+/*FOOTER ARMAMENTO*/
+
+/*streamers*/
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.parent-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 2fr));
+  gap: 6px;
+  grid-template-rows: repeat(8, minmax(0, 3fr));
+  width: 500px;
+  height: 800px;
+  
+}
+
+.grid-item{
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.parent-container .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #90e0ef;
+  background: linear-gradient(to bottom, #0077b6, #000000ad);;
+}
+
+.grid-item .name-streamer p {
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 22px;
+  opacity: 0.64;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+
+.grid-item .logo-streamer img {
+  border-radius: 200px;
+  width: 50px;
+  
+}
+
+/* DESCRIPCION DE STREAMERS */
+
+.info-streamers-container .titulo-streamer h2{
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 22px;
+  opacity: 0.64;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+
+.info-streamers-container .img-streamer img{
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.info-streamers-container .info-streamer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  width: 600px;
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
+
+.info-streamers-container .streamer-container{
+  margin-top: 100px;
+}
+
+.media-streamer {
+  text-align: center;
+  margin: 30px 0 30px 0;
+  
+}
+
+.media-streamer iframe {
+  display: inline-block;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.footersocials {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.pfooter p {
+  margin: 20px 20px 20px 5px;
+  font-size: 12px;
+}
+
+.redes {
+  width: 20px;
+}
